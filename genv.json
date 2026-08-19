@@ -1,0 +1,22 @@
+{
+    "version": "4.0.13",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ks1686/genv/releases/download/v4.0.13/genv_4.0.13_windows_amd64.zip",
+            "bin": [
+                "genv.exe"
+            ],
+            "hash": "bf63857f0c2359bfcebe693b3fb772a5618976668ebdb09606bba27760a9d49b"
+        },
+        "arm64": {
+            "url": "https://github.com/ks1686/genv/releases/download/v4.0.13/genv_4.0.13_windows_arm64.zip",
+            "bin": [
+                "genv.exe"
+            ],
+            "hash": "460db63d9d5d66fae871ba9510e501d5972e0a8e55742d52e99891130e738ef5"
+        }
+    },
+    "homepage": "https://github.com/ks1686/genv",
+    "license": "MIT",
+    "description": "Track, sync, and reproduce your software environment across Linux, macOS, Windows, and WSL2."
+}
