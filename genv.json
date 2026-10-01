@@ -1,19 +1,19 @@
 {
-    "version": "4.5.3",
+    "version": "4.5.4",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ks1686/genv/releases/download/v4.5.3/genv_4.5.3_windows_amd64.zip",
+            "url": "https://github.com/ks1686/genv/releases/download/v4.5.4/genv_4.5.4_windows_amd64.zip",
             "bin": [
                 "genv.exe"
             ],
-            "hash": "df06986e516c6bd482d3c0340052496a7a9eca252bc7888168e83540433aa9da"
+            "hash": "078efddca2779b4fe5999aafa36c439fbf44b070dd5ce6318319253c15d0faf5"
         },
         "arm64": {
-            "url": "https://github.com/ks1686/genv/releases/download/v4.5.3/genv_4.5.3_windows_arm64.zip",
+            "url": "https://github.com/ks1686/genv/releases/download/v4.5.4/genv_4.5.4_windows_arm64.zip",
             "bin": [
                 "genv.exe"
             ],
-            "hash": "3d94baeddb61d01c44a1fb1c00a91c86c25b41c88f1f61aad51f2c90246afba8"
+            "hash": "0bff0cb09d6d95c72caf4fbd797a2aec35c78044740a036b0f992d1b8e17a12c"
         }
     },
     "homepage": "https://github.com/ks1686/genv",
