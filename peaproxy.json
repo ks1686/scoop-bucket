@@ -1,19 +1,19 @@
 {
-    "version": "3.0.1",
+    "version": "3.0.2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ks1686/peaproxy/releases/download/v3.0.1/peaproxy_3.0.1_windows_amd64.zip",
+            "url": "https://github.com/ks1686/peaproxy/releases/download/v3.0.2/peaproxy_3.0.2_windows_amd64.zip",
             "bin": [
                 "peaproxy.exe"
             ],
-            "hash": "60bedb923907e2cf0abd1e307dd4d4248cfda2a2ac4f58582a078c4f54bc3f60"
+            "hash": "e79390b8f8d38a28cb2de7be5c921f2d3ea5505530f8e9346884e603d2165221"
         },
         "arm64": {
-            "url": "https://github.com/ks1686/peaproxy/releases/download/v3.0.1/peaproxy_3.0.1_windows_arm64.zip",
+            "url": "https://github.com/ks1686/peaproxy/releases/download/v3.0.2/peaproxy_3.0.2_windows_arm64.zip",
             "bin": [
                 "peaproxy.exe"
             ],
-            "hash": "71b6d8f6a8fca3be22719b16f4ff3261fb24e815e67859eeff0385b8d8966c11"
+            "hash": "a0d04bebd8ddba0ef7f8e2f0063b1aafce638bc73d34fd464e18ec7b60c3850a"
         }
     },
     "homepage": "https://github.com/ks1686/peaproxy",
