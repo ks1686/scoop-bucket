@@ -63,5 +63,5 @@ jobs:
             $want = (Get-Content "$app.json" -Raw | ConvertFrom-Json).version
             $got = (& $app --version | Select-Object -First 1)
             "$app --version: $got"
-            if ($got -ne "$app $want") { throw "$app: expected '$app $want', got '$got'" }
+            if ($got -ne "$app $want") { throw "${app}: expected '$app $want', got '$got'" }
           }
