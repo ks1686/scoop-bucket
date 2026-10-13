@@ -14,7 +14,9 @@ scoop install peaproxy
 - **genv** — cross-platform environment manager
 - **peaproxy** — localhost AI gateway (API keys and optional subscription OAuth)
 
-Manifests live at the repository root. Each manifest is published from that project's release workflow. The peaproxy manifest tracks the current GitHub release.
+Manifests live at the repository root and are written by GoReleaser from each project's release workflow, so fixes belong in [ks1686/genv](https://github.com/ks1686/genv) or [ks1686/peaproxy](https://github.com/ks1686/peaproxy).
+
+The [validate](.github/workflows/validate.yml) workflow runs on every push, pull request, and weekly on Windows: it validates each manifest against Scoop's JSON schema, then runs `scoop install` from this checkout (verifying the hash) and checks `--version`.
 
 ## License
 
