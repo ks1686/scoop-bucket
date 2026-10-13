@@ -56,7 +56,9 @@ jobs:
 
       - name: Install manifests and run the binaries
         run: |
-          scoop bucket add ks1686 $env:GITHUB_WORKSPACE
+          # Scoop rejects bare paths as bucket sources; a file:// URL is a valid Git URL.
+          scoop bucket add ks1686 "file:///$($env:GITHUB_WORKSPACE -replace '\\', '/')"
+          if ($LASTEXITCODE) { throw 'scoop bucket add failed' }
           foreach ($app in 'genv', 'peaproxy') {
             scoop install "ks1686/$app"
             if ($LASTEXITCODE) { throw "scoop install $app failed" }
